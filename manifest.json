@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "chrome_extension", 
+    "action": {
+        "default_popup": "chrome_extension.html",
+        "default_icon": "extension_logo.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
